@@ -155,11 +155,9 @@ Currently investing time in building production-quality open-source projects aro
 
 ---
 
-## Contact
+## Connect
 
-[linkedin.com/in/swadhingoswami](https://www.linkedin.com/in/swadhin-goswami/)
+- 💼 LinkedIn: https://linkedin.com/in/swadhingoswami
+- 📧 Email: swadhin.goswami@gmail.com
 
-[1]: https://github.com/swadhingoswami/CrossPlatformProcessIdentityVerifier
-[2]: https://github.com/swadhingoswami/BackupCore
-[3]: https://github.com/swadhingoswami/LSMStorageEngine
-[4]: https://github.com/swadhingoswami/RuntimeShield
+I'm always interested in discussions around systems programming, storage, platform security, and open-source infrastructure.
