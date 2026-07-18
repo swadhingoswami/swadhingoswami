@@ -1,36 +1,138 @@
 # Swadhin Goswami
 
-Systems infrastructure: storage, platform security, and trusted computing.
-C++ and Rust, close to the kernel.
+Staff Software Engineer focused on systems programming, platform security, storage systems, and infrastructure software.
+
+I enjoy building software close to the operating system where correctness, performance, and reliability matter. My primary interests include C++, Rust, Linux internals, trusted computing (TPM 2.0), storage engines, backup systems, and cross-platform infrastructure.
+
+This GitHub serves as my engineering portfolio, where I document ideas, explore system design concepts, and build production-quality open-source projects.
+
+---
+
+## Core Areas
+
+- Systems Programming
+- Platform Security
+- Linux Internals
+- Storage Engines
+- Backup & Recovery
+- Trusted Platform Module (TPM 2.0)
+- Cryptography
+- Cross-Platform Development
+- Performance Engineering
 
 ---
 
 ## Featured Projects
 
-### [CrossPlatformProcessIdentityVerifier][1]
+### CrossPlatformProcessIdentityVerifier
+[1]: https://github.com/swadhingoswami/CrossPlatformProcessIdentityVerifier
 
-Process identity verification across Windows and Linux using TPM-backed
-attestation and secure communication channels.
+A cross-platform framework exploring process identity verification using trusted computing, cryptographic verification, and secure communication between applications.
 
-### [BackupCore][2]
+**Focus**
 
-Backup engine with inline deduplication, encrypted snapshots, and
-policy-driven retention.
+- Process Identity
+- TPM-backed Trust
+- Secure IPC
+- Platform Security
+- Windows, Linux and macOS
 
-### [LSMStorageEngine][3]
+---
 
-Log-structured merge-tree storage engine with tiered compaction, bloom
-filters, and ACID transactions.
+### BackupCore
+[2]: https://github.com/swadhingoswami/BackupCore
 
-### [RuntimeShield][4]
+An educational enterprise backup engine that explores snapshot management, incremental backups, deduplication, compression, and data integrity verification.
 
-Kernel-level security runtime for process authorization, file integrity
-monitoring, and policy enforcement.
+**Focus**
 
-### [LinuxTPM][5]
+- Backup
+- Storage
+- Filesystems
+- Snapshot Technology
+- Data Protection
 
-TPM 2.0 command library and tools for Linux — TIS, CRB, session
-management, and attestation flows.
+---
+
+### LSMStorageEngine
+[3]: https://github.com/swadhingoswami/LSMStorageEngine
+
+An educational implementation of a Log-Structured Merge Tree storage engine to better understand modern database internals.
+
+Current areas of exploration include:
+
+- MemTable
+- Write Ahead Log
+- SSTables
+- Bloom Filters
+- Compaction
+- Recovery
+
+---
+
+### RuntimeShield
+[4]: https://github.com/swadhingoswami/RuntimeShield
+
+An experimental runtime protection framework investigating process integrity, library validation, and runtime security techniques for modern operating systems.
+
+---
+
+### LinuxTPM
+
+A Linux TPM 2.0 library focused on learning and simplifying TPM interactions, key management, attestation, and secure cryptographic operations.
+
+---
+
+## Technology Stack
+
+### Languages
+
+- C++
+- Rust
+- Python
+
+### Platforms
+
+- Linux
+- Windows
+- macOS
+
+### Technologies
+
+- TPM 2.0
+- OpenSSL
+- SQLite
+- CMake
+- Git
+- Docker
+- GitHub Actions
+
+---
+
+## Engineering Philosophy
+
+I enjoy understanding how systems work beneath the abstraction layers.
+
+My projects emphasize:
+
+- Clear architecture
+- Well-defined interfaces
+- Correctness over complexity
+- Security by design
+- Maintainable code
+- Thorough documentation
+
+---
+
+## Current Focus
+
+Currently investing time in building production-quality open-source projects around:
+
+- Platform Security
+- Storage Systems
+- Backup Infrastructure
+- Trusted Computing
+- Cross-Platform System Software
 
 ---
 
@@ -43,21 +145,11 @@ management, and attestation flows.
 
 ---
 
-## Current Focus
-
-Shipping LinuxTPM toward v1.0. Reworking snapshot metadata in BackupCore
-for better incremental performance. The LSM storage engine is a longer-term
-project — I return to it when I want to understand a storage concept more
-deeply.
-
----
-
 ## Contact
 
-linkedin.com/in/swadhingoswami
+[linkedin.com/in/swadhingoswami](https://www.linkedin.com/in/swadhin-goswami/)
 
 [1]: https://github.com/swadhingoswami/CrossPlatformProcessIdentityVerifier
 [2]: https://github.com/swadhingoswami/BackupCore
 [3]: https://github.com/swadhingoswami/LSMStorageEngine
 [4]: https://github.com/swadhingoswami/RuntimeShield
-[5]: https://github.com/swadhingoswami/LinuxTPM
