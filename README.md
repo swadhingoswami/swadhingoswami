@@ -24,8 +24,41 @@ This GitHub serves as my engineering portfolio, where I document ideas, explore 
 
 ## Featured Projects
 
+### RuntimeShield
+https://github.com/swadhingoswami/RuntimeShield
+
+RuntimeShield is a cross-platform runtime application protection framework for native applications.
+
+The project explores techniques for verifying executable integrity, validating loaded modules, establishing trusted process identity, and detecting runtime tampering across Linux, Windows, and macOS.
+
+The goal is to provide a reusable security library that can be integrated into enterprise applications requiring runtime trust and integrity verification.
+
+**Focus**
+
+- Executable integrity verification
+- Process identity validation
+- Trusted module verification
+- Runtime tamper detection
+- Secure cryptographic verification
+- Cross-platform abstraction layer
+- Security policy framework
+- Audit and event logging
+
+### BackupCore
+https://github.com/swadhingoswami/BackupCore
+
+An educational enterprise backup engine that explores snapshot management, incremental backups, deduplication, compression, and data integrity verification.
+
+**Focus**
+
+- Backup
+- Storage
+- Filesystems
+- Snapshot Technology
+- Data Protection
+
 ### CrossPlatformProcessIdentityVerifier
-[1]: https://github.com/swadhingoswami/CrossPlatformProcessIdentityVerifier
+https://github.com/swadhingoswami/CrossPlatformProcessIdentityVerifier
 
 A cross-platform framework exploring process identity verification using trusted computing, cryptographic verification, and secure communication between applications.
 
@@ -39,24 +72,8 @@ A cross-platform framework exploring process identity verification using trusted
 
 ---
 
-### BackupCore
-[2]: https://github.com/swadhingoswami/BackupCore
-
-An educational enterprise backup engine that explores snapshot management, incremental backups, deduplication, compression, and data integrity verification.
-
-**Focus**
-
-- Backup
-- Storage
-- Filesystems
-- Snapshot Technology
-- Data Protection
-
----
-
 ### LSMStorageEngine
-[3]: https://github.com/swadhingoswami/LSMStorageEngine
-
+https://github.com/swadhingoswami/LSMStorageEngine
 An educational implementation of a Log-Structured Merge Tree storage engine to better understand modern database internals.
 
 Current areas of exploration include:
@@ -67,13 +84,6 @@ Current areas of exploration include:
 - Bloom Filters
 - Compaction
 - Recovery
-
----
-
-### RuntimeShield
-[4]: https://github.com/swadhingoswami/RuntimeShield
-
-An experimental runtime protection framework investigating process integrity, library validation, and runtime security techniques for modern operating systems.
 
 ---
 
