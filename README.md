@@ -158,6 +158,6 @@ Currently investing time in building production-quality open-source projects aro
 ## Connect
 
 - 💼 LinkedIn: https://linkedin.com/in/swadhingoswami
-- 📧 Email: swadhin.goswami@gmail.com
+- 📧 Email: gsmswadhin@gmail.com
 
 I'm always interested in discussions around systems programming, storage, platform security, and open-source infrastructure.
