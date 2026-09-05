@@ -130,6 +130,7 @@ Current areas of exploration include:
 ### Languages
 
 - C++
+- C#
 - Rust
 - Python
 
