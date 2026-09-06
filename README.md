@@ -125,7 +125,7 @@ Current areas of exploration include:
 
 ---
 
-## Technology Stack
+## Technology Stack 
 
 ### Languages
 
