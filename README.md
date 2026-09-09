@@ -172,7 +172,7 @@ My projects emphasize:
 Currently investing time in building production-quality open-source projects around:
 
 - Platform Security
-- Storage Systems
+- Storage Systems 
 - Backup Infrastructure
 - Trusted Computing
 - Cross-Platform System Software
